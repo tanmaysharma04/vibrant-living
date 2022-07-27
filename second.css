@@ -1,0 +1,324 @@
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Regular.woff');
+}
+*
+ {
+    font-family: Roboto;   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+.container1
+{
+        background-color: #FFD7BF;
+        height: 1024px;
+        width: 100%;
+
+}
+.navbar{
+    background-color: #FFD7BF;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:40px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.shopping{
+    width: 150px;
+}
+.col1{
+    height: 70rem;
+    width: 50rem;
+}
+p{
+    font-family: "Playfair Display";
+    margin-left: 50px;
+    font-size: 4rem;
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: -0.01em;
+}
+.stars{
+    margin-left: 4.2rem;
+    margin-top: 1rem;
+    width: 15rem;
+}
+.stars img{
+     display: inline-block;
+     margin-right: 1.5rem;
+}
+.review{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    margin-left: 20.5rem;
+    margin-top: -1.6rem;
+}
+.lines
+{
+    font-weight: 400;
+    margin-left: 4.2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    color: rgb(39, 14, 4);
+}
+.gm{
+    font-weight: 700;
+    width: 170px;
+    height: 54px;
+    margin-left: 4.2rem;
+    background: rgb(248, 162, 113);
+    border-radius: 42px;
+    border-style: solid;
+    border-color: rgb(248, 162, 113);
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 34px;
+}
+.gm2{
+    font-weight: 700;
+    width: 170px;
+    height: 54px;
+    margin-top: -3.5rem;
+    margin-left: 270px;
+    background: rgb(255, 215, 191);
+    border-radius: 42px;
+    border-style: solid;
+    border-color: rgb(248, 162, 113);
+    text-align: center;
+    padding-top: 15px;
+}
+.chikki
+{
+    position: fixed;
+    margin-left: 36rem;
+    margin-top: -34rem;
+} 
+.packet
+{
+    position: absolute;
+    margin-left: 41rem;
+    margin-top: -19rem;
+}
+button{
+    height: 60px;
+    width: 145px;
+    border-radius: 40px 40px;
+    margin-top: 3rem;
+    margin-left: 4.8;
+    margin-left: 4.2rem;
+}
+button img{
+    height: 62px;
+    width: 163px;
+    margin-left: -0.9rem;
+    margin-top: -0.2rem;
+    cursor: pointer;
+}
+
+.boldprice{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    margin-left: 4.2rem;
+    margin-top: 2rem;
+}
+.rightside{
+    position: absolute;
+    width: 376px;
+    height: 88px;
+    margin-top: -239px;
+    margin-left: 75rem;
+    background-color: white;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.rightside img
+{
+   
+    width: 130px;
+    height: 63px;
+    margin-top: -5px;
+    margin-left: 14rem;
+    border-radius: 40px 40px;
+    cursor: pointer;
+}
+.curve{
+    margin-top: -8rem;
+}
+.curve img
+{
+    margin-right: 0%;
+    margin-left: 59.8%;
+    margin-top: -14rem;
+}
+/* here conatiner one is completed */
+.container2
+{
+        
+        background-color: rgb(255, 184, 143);
+        margin-top: -228px;
+        width: 100%;
+}
+.strip{
+    margin-top: 14.1rem;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(248, 162, 113);
+}
+.p1,.p2,.p3{
+    font-family: 'Roboto';
+}
+.p1
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: -3.5rem;
+    margin-left: 14rem;
+    width: 11rem;
+}
+.p2
+ {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: -2rem;
+    margin-left: 47rem;
+    width: 15rem;
+ }
+ 
+ .p3
+ {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: -2rem;
+    margin-left: 78rem;
+    width: 18rem;
+ }
+.strip1{
+    margin-right: 22rem;
+    margin-left: 4.2rem;
+    margin-top: 2rem;
+    width: 5rem;
+}
+.strip2{
+    
+    margin-left: 37.2rem;
+    margin-top: -7rem;
+    width: 5rem;
+    position: absolute;
+}
+.strip3
+{
+    margin-left: 67.2rem;
+    margin-top: -7rem;
+    width: 5rem;
+    position: absolute;
+}
+.kyf{
+    position: absolute;
+    margin-top: -54.9rem;
+    width: 40rem;
+    height: 200px;
+    left: 30%;
+}
+.foot{
+    margin-top: -70rem;
+}
+
+.foot img
+{
+    margin-top: 76rem;
+    margin-left: 23rem;
+    width: 72rem;
+    height: 65rem;
+}
+.nutrition
+{
+    margin-top: 32.1rem;
+    margin-left: 2.2rem;
+}
+.lowerright
+{
+    font-family: 'Roboto';
+    font-weight: 800;
+    width: 14rem;
+    font-size: 1.6rem;
+    position: absolute;
+    margin: -33rem 77rem;
+}
+.pumpkinseeds
+{
+    font-family: 'Roboto';
+    font-weight: 800;
+    width: 14rem;
+    font-size: 1.2rem;
+    position: absolute;
+    margin: -28rem 68rem;
+}
+
+.seesameseeds
+{
+    font-family: 'Roboto';
+    font-weight: 800;
+    width: 14rem;
+    font-size: 1.2rem;
+    position: absolute;
+    margin: -28rem 86rem;
+}
+
+.pseeds
+{
+    margin: 46rem 33rem;
+    POSITION: ABSOLUTE;
+}
+.seesame
+{
+    margin: 9rem 11rem;
+}
+
+.leaf
+{
+    margin-left: 17rem;
+    margin-top: -4rem;
+    position: absolute;
+}
+.plater
+{
+    margin-top: 27rem;
+    height: 40rem;
+    border-radius: 12%;
+    margin-left: 2rem;
+}
+
+
